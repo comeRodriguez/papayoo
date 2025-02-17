@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "papayoo"
+version = "0.1.0"
+description = "Python package to reproduce Papayoo card game and play against AI"
+authors = ["Côme Rodriguez <come.rodrig@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
